@@ -12,7 +12,7 @@ const Header = () => {
         {/* header top */}
         <section className="bg-[#FF1E1E] py-1.5">
             <Container>
-                <Flex className={'gap-x-13'}>
+                <Flex className={'lg:gap-x-13'}>
                     <div className="flex gap-x-2 items-center">
                         <BiSolidPhoneCall className='text-white' />
                         <p className='text-white font-medium text-base'>01624888444</p>
@@ -28,10 +28,10 @@ const Header = () => {
         {/* header */}
         <header className='py-10'>
             <Container>
-                <Flex className={'justify-between'}>
+                <div className={'lg:justify-between flex-wrap lg:flex-nowrap flex items-center justify-center gap-y-5'}>
                     <Image src='/logo.png' alt='logo' height={44} width={203}/>
                     <nav className="">
-                        <ul className='flex gap-x-10'>
+                        <ul className='flex lg:gap-x-10 gap-x-4'>
                             <li className='text-[#342B27] text-base font-semibold hover:text-[#CF0000] duration-300 cursor-pointer'>Home</li>
                             <li className='text-[#342B27] text-base font-semibold hover:text-[#CF0000] duration-300 cursor-pointer'>About Us</li>
                             <li className='text-[#342B27] text-base font-semibold hover:text-[#CF0000] duration-300 cursor-pointer'>Service</li>
@@ -50,7 +50,7 @@ const Header = () => {
                             <FaTwitter  className='text-white'/>
                         </div>
                     </div>
-                </Flex>
+                </div>
             </Container>
         </header>
         {/* header */}
