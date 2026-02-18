@@ -29,7 +29,9 @@ const Header = () => {
         <header className='py-10'>
             <Container>
                 <div className={'lg:justify-between flex-wrap lg:flex-nowrap flex items-center justify-center gap-y-5'}>
+                    {/* logo */}
                     <Image src='/logo.png' alt='logo' height={44} width={203}/>
+                    {/* navbar  */}
                     <nav className="">
                         <ul className='flex lg:gap-x-10 gap-x-4'>
                             <li className='text-[#342B27] text-base font-semibold hover:text-[#CF0000] duration-300 cursor-pointer'>Home</li>
@@ -39,6 +41,7 @@ const Header = () => {
                             <li className='text-[#342B27] text-base font-semibold hover:text-[#CF0000] duration-300 cursor-pointer'>Contact</li>
                         </ul>
                     </nav>
+                    {/* social icons */}
                     <div className="icons flex gap-x-4.5">
                         <div className="py-5 px-5 bg-[#FF1E1E] rounded-full cursor-pointer">
                             <FaFacebookF className='text-white'/>
